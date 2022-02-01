@@ -1,0 +1,96 @@
+
+<!--AXL MARTINEZ CODE-->
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+    <link rel="stylesheet" href="stylesheets/test.css">
+</head>
+
+<h1 class="p2">Cheesecake Order Form</h1>
+<div class="img">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg" width="160" height="160" />
+</div>
+
+<!--the width and height is used to format the size of image-->
+
+<script src="javascripts/code"></script>
+
+<body>
+    <p class="p1"> Quantity Topping</p>
+
+    <p class="ps"></p>
+    <p class="q"></p>
+    <p class="w"></p>
+    <p class="e"></p>
+    <p class="r"></p>
+
+    <div class="one">
+        <select name="Quantity" id="Quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+         </select>
+    </div>
+
+         <!--BR is just spacing-->
+    <div class="two">
+
+         <input type="radio" id="Plain" name="topping" value="Plain">
+         <label for ="Plain">Plain</label>
+    
+         <br>
+
+         <input type="radio" id="Cherry" name="topping" value="Cherry">
+         <label for="Cherry">Cherry</label>
+         
+         <br>
+         
+         <input type="radio" id="Choclate" name="topping" value="Choclate">
+         <label for="Choclate">Chocolate</label>
+        <br>
+
+    </div>
+
+    <br>
+
+    <div>
+        <label id="b" for="tArea">Notes:</label>
+        <br>
+        <textarea id="tArea" name="tArea" rows="5" cols="50" placeholder="Enter any special instructions here"></textarea>
+        <br>
+        <br>
+        
+        <input id="a" type="submit" value="Order">
+
+        <br> 
+
+        <h3 class="p3">Orders For 
+            <div class="drop">
+                <button class="but">Jan</button>
+                 <div class="dropdown-content">
+                    <a id="1">Jan</a>
+                    <a id="2">Feb</a>
+                    <a id="3">Mar</a>
+                    <a id="4">Apr</a>
+                    <a id="5">May</a>
+                    <a id="6">Jun</a>
+                    <a id="7">Jul</a>
+                    <a id="8">Aug</a>
+                    <a id="9">Sep</a>
+                    <a id="10">Oct</a>
+                    <a id="11">Nov</a>
+                    <a id="12">Dec</a>
+                </div>
+            </div>
+        </h3>
+        <ul>
+            <li class="p4">11 Cherry</li>
+            <li class="p5">17 Choclate</li>
+            <li class="p6">31 Plain</li>
+        </ul>
+    </div>
+</body>
+</html>
